@@ -1,0 +1,64 @@
+{
+  "f1_test": 0.9806485355648535,
+  "auc_test": 0.9969372022309232,
+  "confusion_matrix": [
+    [
+      33853,
+      501
+    ],
+    [
+      831,
+      33750
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9760408257409756,
+      "recall": 0.9854165453804506,
+      "f1-score": 0.980706277702135,
+      "support": 34354.0
+    },
+    "1": {
+      "precision": 0.9853726898484716,
+      "recall": 0.9759694629999133,
+      "f1-score": 0.9806485355648535,
+      "support": 34581.0
+    },
+    "accuracy": 0.9806774497715239,
+    "macro avg": {
+      "precision": 0.9807067577947236,
+      "recall": 0.980693004190182,
+      "f1-score": 0.9806774066334942,
+      "support": 68935.0
+    },
+    "weighted avg": {
+      "precision": 0.9807221225089644,
+      "recall": 0.9806774497715239,
+      "f1-score": 0.9806773115623031,
+      "support": 68935.0
+    }
+  },
+  "roc_curve_png": "Artifacts/roc_curve.png",
+  "fixed_params_used": {
+    "tfidf": {
+      "lowercase": true,
+      "strip_accents": "unicode",
+      "stop_words": null,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "max_df": 0.9,
+      "sublinear_tf": true,
+      "max_features": 80000
+    },
+    "clf": {
+      "C": 0.5,
+      "class_weight": "balanced",
+      "random_state": 42
+    }
+  },
+  "test_size": 0.2,
+  "random_state": 42
+}

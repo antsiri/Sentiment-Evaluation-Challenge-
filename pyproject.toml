@@ -1,0 +1,23 @@
+[project]
+name = "sentimiment-evaluation"
+version = "0.1.0"
+description = "Dato un database di recensioni di Tripadvisor di hotel viene"
+authors = [
+    {name = "richiesto, tramite tecniche di NLP, di effettuare una"}
+]
+license = {text = "sentiment analysis e ranking."}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "pathlib (>=1.0.1,<2.0.0)",
+    "joblib (>=1.5.2,<2.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

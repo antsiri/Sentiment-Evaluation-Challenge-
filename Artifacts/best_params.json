@@ -1,0 +1,32 @@
+{
+  "scoring": "f1",
+  "best_score": 0.9783407714661476,
+  "best_params": {
+    "clf__C": 0.5,
+    "clf__class_weight": "balanced",
+    "clf__random_state": 42,
+    "tfidf__lowercase": true,
+    "tfidf__max_df": 0.9,
+    "tfidf__max_features": 80000,
+    "tfidf__min_df": 2,
+    "tfidf__ngram_range": [
+      1,
+      2
+    ],
+    "tfidf__stop_words": null,
+    "tfidf__strip_accents": "unicode",
+    "tfidf__sublinear_tf": true
+  },
+  "data_path": "Allegati",
+  "n_rows_used": 241269,
+  "cv_folds": 3,
+  "random_state": 42,
+  "config": {
+    "data_dir": "Allegati",
+    "artifact_dir": "Artifacts",
+    "sample_frac": 0.7,
+    "stopwords_it_txt": "stopwords_it_txt",
+    "use_cache": true,
+    "artifacts_dir": "Artifacts"
+  }
+}
